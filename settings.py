@@ -1,0 +1,19 @@
+KEYIN_PIN  = 16
+KEYOUT_PIN = 17
+
+TASK_DELAY   = 0.001 # [s]
+KEYING_DELAY = 50    # [ms]
+
+RUN_MODE = "RIG"          # "RIG" side or "OPERATOR" side
+
+WIFI_MODE = "AP"          # "AP" mode or "STA" mode
+WIFI_SSID = "YOUR SSID"
+WIFI_KEY  = "YOUR KEY"
+
+HOST_ADDR = "192.168.0.1"
+PEER_ADDR = "192.168.0.2"
+PORT      = 5555
+
+SUBNET_MASK  = "255.255.255.0"
+GATEWAY_ADDR = "192.168.0.1"
+DNS_ADDR     = "192.168.0.1"
